@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/navyaraskhakarya/code-gen/analyzer"
-	"github.com/navyaraskhakarya/code-gen/generator"
-	"github.com/navyaraskhakarya/code-gen/logger"
+	"github.com/navyarakshakarya/code-gen/analyzer"
+	"github.com/navyarakshakarya/code-gen/generator"
+	"github.com/navyarakshakarya/code-gen/logger"
 )
 
 const (

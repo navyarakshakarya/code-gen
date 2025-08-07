@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/navyaraskhakarya/code-gen/logger"
-	"github.com/navyaraskhakarya/code-gen/types"
+	"github.com/navyarakshakarya/code-gen/logger"
+	"github.com/navyarakshakarya/code-gen/types"
 )
 
 // Generator generates clean architecture code

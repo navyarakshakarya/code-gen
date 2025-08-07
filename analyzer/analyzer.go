@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/navyaraskhakarya/code-gen/logger"
-	"github.com/navyaraskhakarya/code-gen/types"
+	"github.com/navyarakshakarya/code-gen/logger"
+	"github.com/navyarakshakarya/code-gen/types"
 )
 
 // Analyzer analyzes Go source code to extract interfaces and structs
