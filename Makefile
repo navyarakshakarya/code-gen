@@ -2,7 +2,7 @@
 
 BINARY_NAME=code-gen
 VERSION?=$(shell git describe --tags --always --dirty)
-BUILD_DIR=build
+BUILD_DIR=dist
 LDFLAGS=-ldflags "-X main.version=$(VERSION)"
 
 .PHONY: all build clean test lint install uninstall help
