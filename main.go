@@ -39,7 +39,7 @@ func main() {
 	flag.Parse()
 
 	if *version {
-		fmt.Printf("code-gen %s\n", version)
+		fmt.Printf("code-gen %v\n", version)
 		return
 	}
 
@@ -52,7 +52,7 @@ func main() {
 	logger := logger.New(*verbose)
 
 	if *verbose {
-		fmt.Printf(banner, version)
+		fmt.Printf("%v %v", banner, version)
 	}
 
 	// Get current working directory
